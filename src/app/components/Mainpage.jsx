@@ -3,24 +3,24 @@ import Image from "next/image";
 const Mainpage = () => {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-row py-10 justify-between gap-7">
-        <div>
+      <div className="flex w-full lg:flex-row flex-col py-10 justify-between gap-7">
+        <div className="flex md:justify-center w-full">
           <Image
-            className="rounded-xl"
+            className="rounded-xl md:w-full"
             src="/aleyraaa.png"
-            width={500}
+            width={1000}
             height={1000}
             alt="Picture of the author"
           />
         </div>
-        <div className="flex flex-col w-1/4 gap-12">
+        <div className="flex flex-col md:w-full gap-12 md:text-base text-xs">
           <div className="flex flex-row bg-gray-800 rounded-xl text-white h-10 items-center justify-between p-10">
             <h1 className=" text-gray-600">Name:</h1>
-            <h1 className="font-semibold">Ariel Setiawan </h1>
+            <h1 className="font-semibold ">Ariel Setiawan </h1>
           </div>
           <div className="flex flex-row bg-gray-800 rounded-xl text-white h-10 items-center justify-between p-10">
             <h1 className=" text-gray-600">Based in:</h1>
-            <h1 className=" font-semibold">Indonesia, Kalimantan Timur </h1>
+            <h1 className=" font-semibold">Indonesia </h1>
           </div>
           <div className="flex flex-row bg-gray-800 rounded-xl text-white h-10 items-center justify-between p-10">
             <h1 className="text-gray-600">Email:</h1>
@@ -85,7 +85,7 @@ const Mainpage = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-1/2 ">
+        <div className="flex flex-col md:w-full   ">
           <div className="flex flex-col items-start bg-gray-800 rounded-xl text-white py-5 px-5">
             <h1 className="font-bold m-3 text-xl">About</h1>
             <p className=" text-gray-400 m-3 text-justify">
@@ -103,7 +103,7 @@ const Mainpage = () => {
               design, especially UI/UX design.
             </p>
           </div>
-          <div className="flex flex-row p-14 justify-between">
+          <div className="flex flex-col md:flex-row p-14 gap-10 justify-between">
             <div className=" text-center items-start bg-gray-800 rounded-xl text-white p-7">
               <h1 className="text-2xl font-semibold"> +3 </h1>
               <h1 className="text-gray-400 mt-2"> Years Experience </h1>

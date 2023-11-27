@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="text-center py-5 fixed bottom-0 left-0 z-20 w-full p-4 -t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600">
+    <div className="text-center py-5 fixed bottom-0 left-0 z-20 w-full p-4 -t border-gray-200 shadow lg:flex lg:items-center lg:justify-center lg:p-6 dark:bg-gray-800 dark:border-gray-600">
       <span className="block pt-1 text-xs md:text-sm text-gray-500">
         Created by{" "}
         <a
